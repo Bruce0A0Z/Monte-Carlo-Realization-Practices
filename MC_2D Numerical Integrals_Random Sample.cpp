@@ -23,7 +23,7 @@ int main() {
 
 	srand((unsigned)time(0));
 
-	cout << "Please enter the N number:" << endl;
+	cout << "Please enter the number of samples:" << endl;
 
 	cin >> n;
 
