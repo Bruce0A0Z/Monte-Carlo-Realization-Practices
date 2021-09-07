@@ -20,16 +20,6 @@
 	   Algo: to estimate E[ f(X); p], the MC estimator is (1/n) * sum( p(X) * f(X) / q(X) ), where
 			p(X) > 0 ==> q(X) > 0 for all x in Omega, i.e., we need to find such a PDF q.
 	   
-	ii) Stratified Sampling
-		Stratified sampling is another approach to variance reduction by which the integration volume
-		is divided into subdomains that are each evaluated separately. The estimates from each subdomain
-		are then combined with a weight depending on their subdomain integration volume.
-
-		The stratified sampling estimate of an integral over a function g(x) is given as:
-			E[ g(x) ] = sum( V_j / n_j * sum( g(x_ij) ) ) where x_ij lies in V_j.
-
-		The variance is therefore straght forward from the above expression.
-
 */
 
 /*
